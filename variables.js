@@ -21,11 +21,10 @@ console.log (faveNum);
 
 //CODE HERE
 
-let lovesCode = true;
 
-if(lovesCode) {
-  
-console.log("Love is True")}
+let lovesCode = true
+console.log(lovesCode) 
+
 
 //////////////////PROBLEM 4////////////////////
 /*
