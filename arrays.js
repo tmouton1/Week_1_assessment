@@ -10,6 +10,11 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
+faveColors.push('purple')
+console.log (faveColors)
+
+
+
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -20,6 +25,8 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
+var middleNums = numbers.slice(1, 4)
+console.log (middleNums)
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -34,3 +41,13 @@ const numbers = [1, 2, 3, 4, 5]
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
+
+const answers = [bigOrSmallArray
+]
+
+for (i = 0; i <answers.length; i++) {
+console.log(numbers[i]);
+} 
+
+answers.push('small')
+console.log(answers)

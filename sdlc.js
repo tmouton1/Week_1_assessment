@@ -19,3 +19,19 @@
     The first one is done for you. 
 */
 const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+console.log (planning)
+
+const analysisOfRequirements = "This is the second step, in which the goal is to determine the user expectations for a new or modified product."
+console.log (analysisOfRequirements)
+
+const design = "This is the third step, design gives a foundation to construct your software"
+console.log (design)
+
+const implementation = "This is the fourth step, and consists of putting a software into action and integrating it into a business workflow."
+console.log (implementation)
+
+const testingAndIntegration = "This is the fifth step and is a type of software testing in which the different units, modules or components of a software application are tested as a combined entity."
+console.log(testingAndIntegration)
+
+const maintain = "This is the sixth step. Software must be monitored constantly to ensure proper operation. Maintenance ensures that bugs are reported and responded to in order to prevent the introduction of new problem."
+console.log(maintain)

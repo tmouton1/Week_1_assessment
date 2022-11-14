@@ -35,8 +35,6 @@ const fujiPrice = .89
 const galaPrice = .64
 const pinkPrice = .55
 
-
-
 // PROBLEM 1
 
 /*
@@ -48,7 +46,7 @@ const pinkPrice = .55
 
     Log `totalAcres` to the console.
 */
-
+ 
 // CODE HERE
 
 
@@ -68,9 +66,6 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
-
 
 
 // PROBLEM 3
