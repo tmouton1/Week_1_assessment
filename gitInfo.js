@@ -63,6 +63,8 @@ console.log(gitCloneStatusDefinition)
     Create a variable called 'gitAddDefinition'.  
     It should be a string containing your best definition of what 'git add' does.
 
+    
+
     Create another variable called 'gitAddCode'.  
     It should be a string containing the code to add all files.
 */
@@ -71,6 +73,9 @@ console.log(gitCloneStatusDefinition)
 
 gitAddDefinition = 'Git add adds a change in the working directory to the staging area.'
 console.log(gitAddDefinition)
+
+gitAddCode = "Git add ."
+console.log(gitAddCode)
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -85,12 +90,11 @@ console.log(gitCommitDefinition)
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-gitCommitCode = 'initial commit'
-console.log(gitCommitCode)
 
 //CODE HERE
 
-
+gitCommitCode = 'git commit -M "initial commit"'
+console.log(gitCommitCode)
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  

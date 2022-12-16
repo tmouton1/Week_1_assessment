@@ -5,6 +5,9 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
+let colorCopy = faveColors.slice(0,2)
+console.log(colorCopy)
+
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
@@ -42,12 +45,13 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
 
-const answers = [bigOrSmallArray
-]
+let array = bigOrSmallArray
 
-for (i = 0; i <answers.length; i++) {
-console.log(numbers[i]);
-} 
-
-answers.push('small')
-console.log(answers)
+for (i = 0; i < bigOrSmallArray.length; i++){
+  
+if(bigOrSmallArray[i] >= 100){
+  console.log("big")
+}else
+{console.log("small")}
+}
+  
